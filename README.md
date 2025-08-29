@@ -3,7 +3,7 @@
 A starter template for web-server in Go using **Fiber**, **Cobra**, and **Viper**
 
 ## External Modules
-- [Fiber](https://github.com/gofiber/fiber) – HTTP web framework, fast and minimal
+- [Fiber v3](https://github.com/gofiber/fiber) – HTTP web framework, fast and minimal
 - [Cobra](https://github.com/spf13/cobra) – CLI framework, provides `serve` command
 - [Viper](https://github.com/spf13/viper) – Load and parse config files/env vars
 - [Zerolog](https://github.com/rs/zerolog) – Structured logging
@@ -19,13 +19,25 @@ A starter template for web-server in Go using **Fiber**, **Cobra**, and **Viper*
 - **GolangCI-Lint** – Code linting with premade configuration (`task lint`)
 - **gotestsum** – Test runner with clean output (`task test`)
 
-## Installation
+## Setup
+
+### Prerequisites
+
+- **Go** ≥ 1.23
+- **Task** (optional task runner)  
+  ```bash
+  go install github.com/go-task/task/v3/cmd/task@latest
+  ```
+
+### Installation
+
 ```bash
 git clone https://github.com/PavleProd/go-fiber-template.git
 cd go-fiber-template
 
 go mod download
 ```
+
 ## Usage
 Run the server:
 ```bash
