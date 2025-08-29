@@ -1,9 +1,9 @@
 package example
 
 import (
-	"github.com/catadoo/daily-mini-games/pkg/dto"
-	exampleDto "github.com/catadoo/daily-mini-games/pkg/dto/example"
-	exampleService "github.com/catadoo/daily-mini-games/pkg/services/example"
+	"github.com/PavleProd/go-fiber-template/pkg/dto"
+	exampleDto "github.com/PavleProd/go-fiber-template/pkg/dto/example"
+	exampleService "github.com/PavleProd/go-fiber-template/pkg/services/example"
 	"github.com/gofiber/fiber/v3"
 )
 

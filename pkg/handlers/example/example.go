@@ -1,7 +1,7 @@
 package example
 
 import (
-	"github.com/catadoo/daily-mini-games/pkg/container"
+	"github.com/PavleProd/go-fiber-template/pkg/container"
 	"github.com/gofiber/fiber/v3"
 )
 

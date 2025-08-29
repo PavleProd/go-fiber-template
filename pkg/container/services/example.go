@@ -1,6 +1,6 @@
 package services
 
-import "github.com/catadoo/daily-mini-games/pkg/services/example"
+import "github.com/PavleProd/go-fiber-template/pkg/services/example"
 
 func (s *Services) GetExampleService() example.Interface {
 	s.exampleServiceOnce.Do(func() {

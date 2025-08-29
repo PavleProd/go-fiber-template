@@ -1,8 +1,8 @@
 package container
 
 import (
-	"github.com/catadoo/daily-mini-games/pkg/config"
-	"github.com/catadoo/daily-mini-games/pkg/container/services"
+	"github.com/PavleProd/go-fiber-template/pkg/config"
+	"github.com/PavleProd/go-fiber-template/pkg/container/services"
 	"github.com/rs/zerolog"
 )
 

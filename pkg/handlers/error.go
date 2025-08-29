@@ -2,8 +2,8 @@ package handlers
 
 import (
 	"errors"
-	"github.com/catadoo/daily-mini-games/pkg/constants"
-	"github.com/catadoo/daily-mini-games/pkg/dto"
+	"github.com/PavleProd/go-fiber-template/pkg/constants"
+	"github.com/PavleProd/go-fiber-template/pkg/dto"
 	"github.com/gofiber/fiber/v3"
 	"github.com/rs/zerolog"
 )

@@ -1,8 +1,8 @@
 package services
 
 import (
-	"github.com/catadoo/daily-mini-games/pkg/config"
-	"github.com/catadoo/daily-mini-games/pkg/services/example"
+	"github.com/PavleProd/go-fiber-template/pkg/config"
+	"github.com/PavleProd/go-fiber-template/pkg/services/example"
 	"github.com/rs/zerolog"
 	"sync"
 )

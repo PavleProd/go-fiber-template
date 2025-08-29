@@ -1,8 +1,8 @@
 package handlers
 
 import (
-	"github.com/catadoo/daily-mini-games/pkg/container"
-	"github.com/catadoo/daily-mini-games/pkg/handlers/example"
+	"github.com/PavleProd/go-fiber-template/pkg/container"
+	"github.com/PavleProd/go-fiber-template/pkg/handlers/example"
 	"github.com/gofiber/fiber/v3"
 )
 

@@ -3,8 +3,8 @@ package core
 import (
 	"context"
 	"fmt"
-	"github.com/catadoo/daily-mini-games/pkg/container"
-	"github.com/catadoo/daily-mini-games/pkg/handlers"
+	"github.com/PavleProd/go-fiber-template/pkg/container"
+	"github.com/PavleProd/go-fiber-template/pkg/handlers"
 	"github.com/gofiber/fiber/v3"
 )
 

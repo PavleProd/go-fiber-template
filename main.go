@@ -1,6 +1,6 @@
 package main
 
-import "github.com/catadoo/daily-mini-games/cmd"
+import "github.com/PavleProd/go-fiber-template/cmd"
 
 func main() {
 	cmd.Execute()

@@ -2,9 +2,9 @@ package cmd
 
 import (
 	"context"
-	"github.com/catadoo/daily-mini-games/pkg/config"
-	"github.com/catadoo/daily-mini-games/pkg/constants"
-	"github.com/catadoo/daily-mini-games/pkg/container"
+	"github.com/PavleProd/go-fiber-template/pkg/config"
+	"github.com/PavleProd/go-fiber-template/pkg/constants"
+	"github.com/PavleProd/go-fiber-template/pkg/container"
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/cobra"
 )

@@ -1,8 +1,8 @@
 package example_test
 
 import (
-	"github.com/catadoo/daily-mini-games/pkg/services/example"
-	"github.com/catadoo/daily-mini-games/pkg/testutils"
+	"github.com/PavleProd/go-fiber-template/pkg/services/example"
+	"github.com/PavleProd/go-fiber-template/pkg/testutils"
 	"github.com/rs/zerolog"
 	"testing"
 )
