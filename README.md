@@ -15,20 +15,15 @@ A starter template for web-server in Go using **Fiber**, **Cobra**, and **Viper*
 - Config management via Viper, including config validation via invopop/validation
 - Dependency Injection Container structure
 
-## Commands
-- **GolangCI-Lint** – Code linting with premade configuration (`task lint`)
-- **gotestsum** – Test runner with clean output (`task test`)
-
 ## Setup
 
 ### Prerequisites
 
 - **Go** ≥ 1.23
-- **Task** (optional task runner)  
+- **Task** 
   ```bash
   go install github.com/go-task/task/v3/cmd/task@latest
   ```
-
 ### Installation
 
 ```bash
@@ -38,17 +33,13 @@ cd go-fiber-template
 go mod download
 ```
 
-## Usage
-Run the server:
-```bash
-go run . serve
-```
+## Commands
+- `task run`: Runs `serve` command in temporary binary
+- `task build` Builds binaries into `/bin` folder and Runs `serve` command
+- `task test`: Runs tests with formatted output
+- `task lint`: Runs code linting with premade configuration (`.golangci.yml`)
 
-Build a binary:
-```bash
-go build -o server .
-./server serve
-```
+These commands can be easily used as GitHub Actions
 
 ## Example Endpoint
 ```bash
