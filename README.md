@@ -2,7 +2,7 @@
 
 A starter template for web-server in Go using **Fiber**, **Cobra**, and **Viper**
 
-## Modules Used
+## External Modules
 - [Fiber](https://github.com/gofiber/fiber) – HTTP web framework, fast and minimal
 - [Cobra](https://github.com/spf13/cobra) – CLI framework, provides `serve` command
 - [Viper](https://github.com/spf13/viper) – Load and parse config files/env vars
